@@ -1,7 +1,9 @@
+# ytkt: "YAML Tickets"
+
 This utility converts a set of tickets defined in YAML into friendly
 Markdown or a Jira-formatted CSV.
 
-# Usage
+## Usage
 
 To install its dependencies, clone the repository and run `poetry install`
 in the root directory.
@@ -14,7 +16,7 @@ ytkt [--csv] [--epic <Epic ID>] [--team <Team Name>] <yaml file>
 
 Without `--csv`, the output will be Markdown.
 
-# Formatting Your Tickets
+## Formatting Your Tickets
 
 Use a YAML file with this structure:
 
