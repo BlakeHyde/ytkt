@@ -10,6 +10,7 @@ class Task:
     title: str
     description: str
     alias: Optional[str]
+    blocks: List[Task]
     blocked_by: List[Task]
     points: Optional[int]
 

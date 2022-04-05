@@ -8,7 +8,7 @@ from .types import Task
 
 def markdown(tasks: List[Task]) -> Iterator[str]:
     for task in tasks:
-        yield f"# {task.title}\n"
+        yield f"\n# Task {task.id}: {task.title}\n"
         description_text = task.description.replace("\n", "\n\n")
         yield f"{description_text}"
 
