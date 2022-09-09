@@ -25,3 +25,7 @@ if args.csv:
     csv(context, tasks, stream)
 else:
     print("\n".join(markdown(tasks)))
+
+
+def main():
+    pass
